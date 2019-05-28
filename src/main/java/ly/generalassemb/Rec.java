@@ -18,6 +18,19 @@ public class Rec {
     private User user;
 
     private String title;
+    private String creator;
+    private String type;
+
+
+    public User getUser(){
+        return user;
+    }
+
+    public void setUser(User user){
+        this.user = user;
+    }
+
+
 
     public String getTitle() {
         return title;
@@ -27,20 +40,30 @@ public class Rec {
         this.title = textInput;
     }
 
+
+
+    public String getCreator() {
+        return creator;
+    }
+
+    public void setCreator(String textInput){
+        this.creator = textInput;
+    }
+
+
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String textInput){
+        this.type = textInput;
+    }
+
+
+
     public Long getId(){
         return id;
-    }
-
-    public void setId(Long id){
-        this.id = id;
-    }
-
-    public User getUser(){
-        return user;
-    }
-
-    public void setUser(User user){
-        this.user = user;
     }
 
 }

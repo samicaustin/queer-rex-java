@@ -1,4 +1,11 @@
-/Users/samanthaaustin/IdeaProjects/queer-rex/src/main/java/ly/generalassemb/Controller.java
+/Users/samanthaaustin/IdeaProjects/queer-rex/src/main/java/ly/generalassemb/SecurityConfiguration.java
 /Users/samanthaaustin/IdeaProjects/queer-rex/src/main/java/ly/generalassemb/Application.java
+/Users/samanthaaustin/IdeaProjects/queer-rex/src/main/java/ly/generalassemb/UserRepository.java
+/Users/samanthaaustin/IdeaProjects/queer-rex/src/main/java/ly/generalassemb/RecController.java
 /Users/samanthaaustin/IdeaProjects/queer-rex/src/main/java/ly/generalassemb/Rec.java
+/Users/samanthaaustin/IdeaProjects/queer-rex/src/main/java/ly/generalassemb/WebMvcConfiguration.java
 /Users/samanthaaustin/IdeaProjects/queer-rex/src/main/java/ly/generalassemb/RecRepository.java
+/Users/samanthaaustin/IdeaProjects/queer-rex/src/main/java/ly/generalassemb/UserController.java
+/Users/samanthaaustin/IdeaProjects/queer-rex/src/main/java/ly/generalassemb/UserService.java
+/Users/samanthaaustin/IdeaProjects/queer-rex/src/main/java/ly/generalassemb/CorsConfiguration.java
+/Users/samanthaaustin/IdeaProjects/queer-rex/src/main/java/ly/generalassemb/User.java

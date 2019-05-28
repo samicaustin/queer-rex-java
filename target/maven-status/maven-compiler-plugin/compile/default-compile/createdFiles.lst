@@ -1,4 +1,7 @@
+ly/generalassemb/User.class
 ly/generalassemb/Rec.class
+ly/generalassemb/UserRepository.class
+ly/generalassemb/Application.class
 ly/generalassemb/RecRepository.class
 ly/generalassemb/RecController.class
-ly/generalassemb/Application.class
+ly/generalassemb/UserController.class

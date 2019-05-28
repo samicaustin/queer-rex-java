@@ -12,7 +12,7 @@ public class RecController {
     private RecRepository recRepository;
 
     @GetMapping("/recs")
-    public Iterable<Rec> getRecs(){
+    public Iterable<Rec> recIndex(){
         return recRepository.findAll();
     }
 

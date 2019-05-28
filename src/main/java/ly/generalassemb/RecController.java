@@ -3,6 +3,7 @@ package ly.generalassemb;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpSession;
 import java.util.Optional;
 
 @RestController
@@ -11,13 +12,25 @@ public class RecController {
     @Autowired
     private RecRepository recRepository;
 
+    @Autowired
+    private UserRepository userRepository;
+
+
     @GetMapping("/recs")
     public Iterable<Rec> recIndex(){
         return recRepository.findAll();
     }
 
     @PostMapping("/recs")
-    public Rec createRec(@RequestBody Rec rec){
+    public Rec createRec(@RequestBody Rec rec, HttpSession session) throws Exception{
+        if(session.getAttribute("username") == null){
+            throw new Exception("you must be logged in");
+        }
+        User user = userRepository.findByUsername(session.getAttribute("username").toString());
+        if(user == null){
+            throw new Exception("you must be logged in");
+        }
+        rec.setUser(user);
         Rec createdRec = recRepository.save(rec);
         return createdRec;
     }

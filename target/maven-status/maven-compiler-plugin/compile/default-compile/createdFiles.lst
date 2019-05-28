@@ -4,4 +4,8 @@ ly/generalassemb/UserRepository.class
 ly/generalassemb/Application.class
 ly/generalassemb/RecRepository.class
 ly/generalassemb/RecController.class
+ly/generalassemb/WebMvcConfiguration.class
 ly/generalassemb/UserController.class
+ly/generalassemb/SecurityConfiguration.class
+ly/generalassemb/UserService.class
+ly/generalassemb/CorsConfiguration.class

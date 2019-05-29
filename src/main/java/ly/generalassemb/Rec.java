@@ -20,6 +20,10 @@ public class Rec {
     private String title;
     private String creator;
     private String type;
+    private String find;
+    private String img;
+    private String description;
+
 
 
     public User getUser(){
@@ -41,7 +45,6 @@ public class Rec {
     }
 
 
-
     public String getCreator() {
         return creator;
     }
@@ -60,6 +63,35 @@ public class Rec {
         this.type = textInput;
     }
 
+
+
+    public String getFind() {
+        return find;
+    }
+
+    public void setFind(String textInput){
+        this.find = textInput;
+    }
+
+
+
+    public String getImg() {
+        return img;
+    }
+
+    public void setImg(String textInput){
+        this.img = textInput;
+    }
+
+
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String textInput){
+        this.description = textInput;
+    }
 
 
     public Long getId(){

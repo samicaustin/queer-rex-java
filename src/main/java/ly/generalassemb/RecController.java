@@ -18,6 +18,7 @@ public class RecController {
 
     @GetMapping("/recs")
     public Iterable<Rec> recIndex(){
+        System.out.println(recRepository.findAll());
         return recRepository.findAll();
     }
 

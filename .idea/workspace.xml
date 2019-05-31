@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="518a7474-9bee-4ddf-9c7e-422e088eb36f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ly/generalassemb/RecController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ly/generalassemb/RecController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ly/generalassemb/RecRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ly/generalassemb/RecRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ly/generalassemb/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ly/generalassemb/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/queer-rex-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/queer-rex-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/queer-rex-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/queer-rex-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ly.generalassemb.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ly.generalassemb.AppTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ly.generalassemb.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ly.generalassemb.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,6 +18,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ly/generalassemb/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -36,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ly/generalassemb/RecController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="292">
@@ -53,15 +56,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -154,7 +148,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ly/generalassemb/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/ly/generalassemb/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ly/generalassemb/CorsConfiguration.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ly/generalassemb/WebMvcConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/ly/generalassemb/SecurityConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/ly/generalassemb/UserController.java" />
@@ -162,6 +155,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ly/generalassemb/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ly/generalassemb/RecRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ly/generalassemb/RecController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -172,7 +166,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="352" />
     <option name="y" value="29" />
     <option name="width" value="1062" />
@@ -326,13 +320,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -418,6 +405,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
